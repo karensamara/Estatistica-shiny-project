@@ -5,7 +5,7 @@ header <- dashboardHeader(title = "Projeto de Estatística")
 sidebar <- dashboardSidebar(
     sidebarMenu(
         menuItem("Métricas", tabName = "m", icon = icon("chart-line")),
-        menuItem('Comparando Ações', tabName = 'comp', icon = icon('chart-bar'))
+        menuItem('Comparando Gastos', tabName = 'comp', icon = icon('chart-bar'))
     )
 )
 
@@ -73,5 +73,5 @@ body <- dashboardBody(
 )
 
 ui <- dashboardPage(
-    skin = 'blue',
+    skin = 'green',
     header, sidebar, body)
